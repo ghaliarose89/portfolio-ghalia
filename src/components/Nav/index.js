@@ -15,7 +15,7 @@ function Nav() {
                         </Link>
                     </li>
                     <li className={"mx-2"}>
-                        <Link to="/Projects"><h3> Projects</h3> </Link>
+                        <Link to="/Projects" data-testid= 'Project'><h3> Projects</h3> </Link>
 
 
                     </li>
