@@ -9,9 +9,8 @@ function About() {
         <div className="text-center">
         <img src={ghalia} className="img-thumbnail" alt="ghalia" />
     </div>
-            <div className="col bio">
-            Ghalia is an ambitious and friendly girl. She was born in Syria in 1989. Ghalia lived and grew up in Damascus until the age of 23. Her favorite hobby is to help needy people and see them happy. For that, she spends most of her free time in charities and organizations to support fresh refugees and immigrants. Ghalia always dreams to be a software developer to create and invent new technology programs which would help mankind. Her dream was paused when the war broke out in her country.
-            Although Ghalia’s dreams and goals stopped for a while , Ghalia persisted to achieve her goal. She is applied for Rice University Boot Camp to achieve her goal. Ghalia is dedicated and persistent to reach her goal to be a successful web developed and achieve many applications and projects to help the mankind.
+            <div className="col bio"> <br/><br/>
+            I am Full Stack Web Developer In Colorado Denver area with an Associate’s Degree and five+ years professional experience in Computer Technology Teaching . I am a naturally curious person which makes me want to always learn new things, a problem-solver who questions everything, and a hard worker who doesn't take life too seriously and enjoys the little things.
             </div>
         </div>
     </div>
