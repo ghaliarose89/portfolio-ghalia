@@ -1,34 +1,36 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        
-        <nav>
+
+        <nav className="navbar navbar-expand-lg navbar-dark mb-2">
+            <div className='text-center margin'>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <Link to ='/About'>
-                            About me
+                        <Link to='/About'>
+                           <h3> About me</h3>
                         </Link>
                     </li>
                     <li className={"mx-2"}>
-                   <Link  to="projects"> Projects</Link>
-                            
-                        
+                        <Link to="/Projects"><h3> Projects</h3> </Link>
+
+
                     </li>
                     <li className={"mx-2"}>
-                    <a data-testid="about" href="#about">
-                            Resume
-                        </a>
+                        <Link to="/Resume">
+                        <h3> Resume</h3> 
+                        </Link>
                     </li>
                     <li className={"mx-2"}>
-                    <a data-testid="about" href="#about">
-                            Reach Me
-                        </a>
+                        <Link to="/ReachMe">
+                        <h3> Reach Me</h3> 
+                        </Link>
                     </li>
 
                 </ul>
-            </nav>
+            </div>
+        </nav>
     )
 }
 

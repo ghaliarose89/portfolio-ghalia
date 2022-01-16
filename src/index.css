@@ -5,11 +5,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #735d78;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #000000;
+  --dark:#c9ada7;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -28,8 +28,8 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 15 px;
+  padding: 15px;
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', ;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -54,6 +54,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color:var( --primary) ;
 }
 
 h2 {
@@ -89,6 +90,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #735d78;
 }
 
 header {
@@ -132,8 +134,18 @@ span {
 
 form {
   width: 40%;
+  margin-top:20px ;
+  margin:15px;
+  margin-left: 30%;
+  border: var(--primary);
 }
-
+.contact-me{
+ 
+  margin-top: 5%;
+}
+.bio{
+ color: #735d78;
+}
 input {
   font-size: 1rem;
   padding: 0.25rem;
@@ -161,7 +173,7 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 300px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -173,6 +185,11 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+  .about-container{
+    margin-top: 7%;
+  }
 
 .flex-row {
   display: flex;
@@ -269,7 +286,13 @@ textarea {
 	font-weight: 600;
 	margin-bottom: 25px;
 }
-
+.margin{
+  margin-left: 34%
+}
+.project{
+  color: var(--primary);
+  margin-left: 45%
+}
 button {
 	background: var(--primary);
 	border: 0;

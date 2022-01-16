@@ -62,14 +62,14 @@ function Projects(props) {
 
                 <div className="row">
 
-                    <h2 className="text-center card-header rounded-3 text-white mb-3">Projects</h2>
+                    <h2 className="text-center contact-me form-border  project mb-3">My Projects</h2>
 
                 </div>
                 <div className="row d-flex justify-content-center mb-5">
 
                     {props.children}
                    
-                    {projectList.map((projects) => (
+                    {project.map((projects) => (
                         <ProCards
                             key={projects.id}
                             image={projects.image}
