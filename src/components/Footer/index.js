@@ -11,7 +11,7 @@ function Footer() {
                     <div class="col">
                     <br/><br/><br/>
 
-                            <span className="text-white me-2 text-decoration-none lh-1">&copy; 2021 Ghalai Sami</span>
+                            <span className="text-white me-2 text-decoration-none lh-1">&copy; 2022 Ghalai Sami</span>
                        
                     </div>
                     <div class="col">

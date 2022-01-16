@@ -4,7 +4,7 @@ function Resume() {
     return (
         <div className='container resume'>
             <div className='row'>  <div className='col-3'> <h2 className='contact-me'> Skills:</h2>
-            <a href='../../assets/Resume/Ghalia-Sami.pdf'><h5>Download My Resume</h5></a>
+            <a href='https://ghaliarose89.github.io/Ghalia-portfolio/assets/Resume/Ghalia-Sami.pdf'><h5>Download My Resume</h5></a>
             </div>
                 <div className='col-3'>
 
