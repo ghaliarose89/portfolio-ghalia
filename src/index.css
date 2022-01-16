@@ -145,6 +145,12 @@ form {
 }
 .bio{
  color: #735d78;
+ 
+}
+
+.project-name{
+  color:#735d78;
+  font-weight: bold;
 }
 input {
   font-size: 1rem;
@@ -249,9 +255,13 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
+.project-image{
+  width: auto;
+  height: 300px;
+}
+.project-desc{
+  width: auto;
+  height: 100px;
 }
 
 .img-thumbnail {

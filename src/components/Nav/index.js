@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-dark mb-2">
+        <nav className="navbar navbar-expand-lg  mb-2">
             <div className='text-center margin'>
                 <ul className="flex-row">
                     <li className="mx-2">

@@ -1,54 +1,61 @@
 import React, { useState } from 'react';
 import ProCards from '../ProCards';
+import project1 from "../../assets/projects/pro1.jfif"
+import project2 from "../../assets/projects/pro2.JPG"
+import project3 from "../../assets/projects/pro3.jpg"
+import project4 from "../../assets/projects/pro4.jpg"
+import project5 from "../../assets/projects/pro5.jpg"
+import project6 from "../../assets/projects/pro6.png"
+
 const project = [
 
     {
         id: 1,
-        image: "../../assets/projects/pro1.jifi",
-        name: "Tech-Blog 9000",
-        description: "This is a full-stack web application that utilizes a SQL database. This project is a Tech Blog site where users can browse post without logging in.If the user signs up and logs in they will be able to create their own blog post and add comments to other user's post.",
-        github: "https://github.com/JeffGoji/techblog",
-        deployed: "https://tech-notes-9000.herokuapp.com/",
+        image:project1,
+        name: "My Neighbors",
+        description: "My Neighbors is a full-stack web application that utilizes a MYSQL in the Back-end and handelBars for Front-end . This app Tracks Neighborhood Events, News, Services, and Residents.",
+        github: "https://github.com/ghaliarose89/my-neighbors",
+        deployed: "https://myneighbor-app.herokuapp.com/",
     },
     {
         id: 2,
-        image: "../../assets/projects/pro2.jpG",
-        name: "Enterprising Arrangements",
-        description: "This is a full-stack web application that utilizes a SQL database. This project is used to search and post venues in your local area.Conglomerate all venue types from multiple venue owners on the site for viewers to have easy access to the information they need.Or Sign Up and Login to post, edit, or delete venues from the site.I worked with Noah Tidwell and Ivonne",
+        image: project2,
+        name: "Pet Search",
+        description: "Pet Search is a Fron-end application that uses four ApI to search for a pet (Cat/Dog) for adoption          ",
         github: "https://github.com/NoahTidwell/Enterprising-Arrangements",
-        deployed: "https://enterprising-arrangements1.herokuapp.com/",
+        deployed: "https://ghaliarose89.github.io/pet-search/",
     },
     {
         id: 3,
-        image: "../../assets/projects/pro3.jpG",
-        name: "Social Network Web API",
-        description: "This is an API project for a social network web application that utilizes MongoDB, Express.js, and Mongoose. Users can post their thoughts, react to friend's thoughts, and can add or remove friends from their personal list. This is strictly a back-end project, so you will need to use Insomnia Core or Postman to access the routes.",
-        github: "https://github.com/JeffGoji/social-network-api",
-        deployed: "#none",
+        image: project3,
+        name: "Budget Tracker",
+        description: "Budget Tracker is a fast and easy App to track money. Budget Tracker uses MongoDB, Index DB, and service worker for Offline functionality ",
+        github: "https://github.com/ghaliarose89/budget-tracker",
+        deployed: "https://budget-tracker2022.herokuapp.com/",
     },
     {
         id: 4,
-        image: "../../assets/projects/pro4.jpG",
-        name: "Note Taker App",
-        description: "This is a Note Taker application that uses Express.js on the back end and stores the notes into a JSON file with a unique ID for each note. You can create, save, and delete each note. You can click on a previously saved note to bring it up to view it.",
-        github: "https://github.com/JeffGoji/Note-Taker",
-        deployed: "https://jeffs-note-keeper.herokuapp.com/",
+        image:project4,
+        name: "Employee-tracker",
+        description: "Tracking employee's database. A command-line application built with REST API and MySQL.",
+        github: "https://github.com/ghaliarose89/employee-tracker",
+        deployed: "https://youtu.be/dI9h_WXMxbE",
     },
     {
         id: 5,
-        image: "../../assets/projects/pro5.jpG",
-        name: "Team Profile Generator App",
-        description: "This is a Team Profile Generator app for creating a webpage that has a list of team members and their roles and information. This app is built with nodeJS and JavaScript. It utilizes the inquirer npm package and the Jest JavaScript testing npm. The layout in the HTML is handled using Bootstrap 5.",
-        github: "https://github.com/JeffGoji/Note-Taker",
-        deployed: "https://www.youtube.com/watch?v=0BthibBNIxY",
+        image: project5,
+        name: "Readme-Generator",
+        description: "This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project",
+        github: "https://github.com/ghaliarose89/readme-generator",
+        deployed: "https://www.youtube.com/watch?v=dI9h_WXMxbE",
     },
     {
         id: 6,
-        image: "../../assets/projects/top.png",
-        name: "Texas Stargazer Website",
-        description: "Front-end team project built in collaboration with Julie Summers and Reagan Price in an Agile development environment. This website utilizes HTML5, CSS3, JavaScript, and was styled with the Bulma framework. It uses two API calls for the data on the page and it is 100% mobile responsive.",
-        github: "https://rprice000.github.io/texas-stargazing/index.html",
-        deployed: "https://rprice000.github.io/texas-stargazing/index.html",
+        image: project6,
+        name: "Tech-Blog",
+        description: "Full web stack application that uses MYSQl and handlebars. Tech-Blog is  blog page where the user can post and communitact with other bloggers.",
+        github: "https://github.com/ghaliarose89/tech-blog",
+        deployed: "https://tech-blogs-22.herokuapp.com/",
     },
 ]
 
@@ -67,9 +74,8 @@ function Projects(props) {
                 </div>
                 <div className="row d-flex justify-content-center mb-5">
 
-                    {props.children}
-                   
-                    {project.map((projects) => (
+                    
+                    {projectList.map((projects) => (
                         <ProCards
                             key={projects.id}
                             image={projects.image}

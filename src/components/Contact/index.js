@@ -19,7 +19,7 @@ function ContactForm() {
                 setErrorMessage('your email is invalid')
             } else setErrorMessage('');
         }
-       
+
         if (!errorMessage) { setFormState({ ...formState, [e.target.name]: e.target.value }); }
         console.log('errorMessage', errorMessage);
 
@@ -34,29 +34,53 @@ function ContactForm() {
 
     return (
         <section className='form-border'>
-        <div className="text-center">
-            <h1 className='contact-me form-border '>Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name"> Name:</label><br/>
-                    <input type="text" name="name" defaultValue={name} onBlur ={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <br/> <input type="email" name="email" defaultValue={email} onBlur ={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label><br/>
-                    <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <div>
-                      <p className="error-text">{errorMessage}</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div className="text-center">
+                            <h1 className='contact-me form-border '>Contact me</h1>
+                            <form id="contact-form" onSubmit={handleSubmit}>
+                                <div>
+                                    <label htmlFor="name"> Name:</label><br />
+                                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                                </div>
+                                <div>
+                                    <label htmlFor="email">Email address:</label>
+                                    <br /> <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                                </div>
+                                <div>
+                                    <label htmlFor="message">Message:</label><br />
+                                    <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
+                                </div>
+                                {errorMessage && (
+                                    <div>
+                                        <p className="error-text">{errorMessage}</p>
+                                    </div>
+                                )}
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
                     </div>
-                  )}
-                <button type="submit">Submit</button>
-            </form>
-            </div>
+                    <div class="col">
+                        <section>
+                            <ul>
+                            <li>
+                            Phone Number: (832-8733889)
+                            </li>
+                            <li>
+                            Email: <a href="mailto:ghaliarose89@gmail.com">
+                            ghaliarose89@gmail.com</a>
+                            </li>
+                           <li>
+                           LinkedIn Profile: <a
+                           href="https://www.linkedin.com/in/ghalia-sami-063a6a122/">Ghalia Sami</a>
+                           </li>
+                            </ul>
+                        </section>
+                    </div>
+
+
+                </div></div>
         </section>
     )
 }
