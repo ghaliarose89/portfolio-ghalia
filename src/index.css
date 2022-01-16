@@ -136,12 +136,13 @@ form {
   width: 40%;
   margin-top:20px ;
   margin:15px;
-  margin-left: 30%;
+  margin-left: 28%;
   border: var(--primary);
 }
 .contact-me{
  
   margin-top: 5%;
+  color: #735d78;
 }
 .bio{
  color: #735d78;
@@ -179,7 +180,7 @@ nav  li {
 }
 
 textarea {
-	width: 300px;
+	width: 270px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -258,6 +259,10 @@ textarea {
 .project-image{
   width: auto;
   height: 300px;
+  opacity: 30%;
+}
+.project-image:hover{
+  opacity: 100%;
 }
 .project-desc{
   width: auto;
@@ -282,20 +287,7 @@ textarea {
 	z-index: 1;
 }
 
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
 
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
 .margin{
   margin-left: 34%
 }
@@ -314,6 +306,11 @@ button {
 	margin-bottom: 30px;
 	padding: 10px 15px;	
 }
+.resume{
+height: 450px;
+
+}
+
 
 a {
 	border-radius: 5px;

@@ -38,7 +38,7 @@ function ContactForm() {
                 <div class="row">
                     <div class="col">
                         <div className="text-center">
-                            <h1 className='contact-me form-border '>Contact me</h1>
+                            <h1 className='contact-me  '>Contact me</h1>
                             <form id="contact-form" onSubmit={handleSubmit}>
                                 <div>
                                     <label htmlFor="name"> Name:</label><br />
@@ -50,7 +50,7 @@ function ContactForm() {
                                 </div>
                                 <div>
                                     <label htmlFor="message">Message:</label><br />
-                                    <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
+                                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                                 </div>
                                 {errorMessage && (
                                     <div>
@@ -64,6 +64,9 @@ function ContactForm() {
                     <div class="col">
                         <section>
                             <ul>
+                            
+                           <br/><br/><br/>
+                            <h3 className='contact-me'>Reach Me:</h3>
                             <li>
                             Phone Number: (832-8733889)
                             </li>
