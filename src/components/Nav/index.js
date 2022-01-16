@@ -2,6 +2,7 @@ import React  from 'react'
 import { Link } from 'react-router-dom';
 
 function Nav() {
+    
    
     return (
 
@@ -10,7 +11,7 @@ function Nav() {
                 <ul className="flex-row">
                     <li className="mx-2 ">
                         <Link to='/About' >
-                           <h3> About me</h3>
+                           <h3 > About me</h3>
                         </Link>
                     </li>
                     <li className={"mx-2"}>
