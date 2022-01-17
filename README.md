@@ -11,6 +11,9 @@ exploring this portfolio allows to navigate the following:
 * Ghalia's Resume.
 * Ghalia's contact information.
 
+## Usage:
+snip ![snip](./src/assets/Ghalia/screen.jpg)
+
 ## Website
 (https://ghalia-por.herokuapp.com/#/)
 
