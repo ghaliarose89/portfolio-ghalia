@@ -266,7 +266,7 @@ textarea {
 }
 .project-desc{
   width: auto;
-  height: 100px;
+  height: 200px;
 }
 
 .img-thumbnail {
@@ -308,7 +308,7 @@ button {
 	padding: 10px 15px;	
 }
 .resume{
-height: 450px;
+height: 1000px;
 
 }
 

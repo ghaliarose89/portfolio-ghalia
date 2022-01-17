@@ -61,6 +61,7 @@ function ContactForm() {
                             </form>
                         </div>
                     </div>
+                    <div class="row">
                     <div class="col">
                         <section>
                             <ul>
@@ -80,6 +81,7 @@ function ContactForm() {
                            </li>
                             </ul>
                         </section>
+                    </div>
                     </div>
 
 
