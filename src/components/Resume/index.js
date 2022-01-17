@@ -6,8 +6,8 @@ function Resume() {
             <div className='row'>  <div className='col-3'> <h2 className='contact-me'> Skills:</h2>
             <a href='https://ghaliarose89.github.io/Ghalia-portfolio/assets/Resume/Ghalia-Sami.pdf'><h5>Download My Resume</h5></a>
             </div>
-                <div className='col-3'>
-
+                <div className='col-3 '>
+                    <div className='col-sm'>
                     <h5 className='contact-me'>FRONT-END:</h5><br />
                     HTML5<br />
                     React<br />
@@ -20,7 +20,9 @@ function Resume() {
                     AJAX<br />CSS3
 
                 </div>
-                <div className='col-3'>
+                </div>
+                <div className='col-3 col-sm'>
+                <div className='col-sm'>
                 <h5 className='contact-me'>  BACK-End:</h5><br />Node<br />
                     ES6<br />
                     Object-oriented<br />
@@ -32,6 +34,7 @@ function Resume() {
                     Testing<br />
                     programming<br />
 
+                </div>
                 </div>
             </div>
             
