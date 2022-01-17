@@ -21,7 +21,7 @@ function App() {
       <Route path= "/Resume" component= {Resume }/>
       
       </div>
-      <Route path= "*" component= {About }/>
+     
       </Switch>
       
      
