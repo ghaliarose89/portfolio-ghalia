@@ -5,7 +5,7 @@ import project2 from "../../assets/projects/pro2.JPG"
 import project3 from "../../assets/projects/pro3.jpg"
 import project4 from "../../assets/projects/pro4.jpg"
 import project5 from "../../assets/projects/pro5.jpg"
-import project6 from "../../assets/projects/pro6.png"
+import project6 from "../../assets/projects/pro6.jpg"
 
 const project = [
 
@@ -47,7 +47,7 @@ const project = [
         name: "Readme-Generator",
         description: "This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project",
         github: "https://github.com/ghaliarose89/readme-generator",
-        deployed: "https://www.youtube.com/watch?v=dI9h_WXMxbE",
+        deployed: "https://www.youtube.com/watch?v=yRFRdbIpSvA",
     },
     {
         id: 6,
