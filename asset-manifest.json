@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio-ghalia/static/css/main.d30fc772.css",
-    "main.js": "/portofolio-ghalia/static/js/main.da0b0acf.js",
+    "main.js": "/portofolio-ghalia/static/js/main.5d2229d3.js",
     "static/js/787.071cab62.chunk.js": "/portofolio-ghalia/static/js/787.071cab62.chunk.js",
     "static/media/pro3.jpg": "/portofolio-ghalia/static/media/pro3.82041d76897fee59153d.jpg",
     "static/media/pro1.jfif": "/portofolio-ghalia/static/media/pro1.5d9b601494864a63fee0.jfif",
@@ -12,11 +12,11 @@
     "static/media/pro5.jpg": "/portofolio-ghalia/static/media/pro5.47580cd729b3d7ff9ff6.jpg",
     "index.html": "/portofolio-ghalia/index.html",
     "main.d30fc772.css.map": "/portofolio-ghalia/static/css/main.d30fc772.css.map",
-    "main.da0b0acf.js.map": "/portofolio-ghalia/static/js/main.da0b0acf.js.map",
+    "main.5d2229d3.js.map": "/portofolio-ghalia/static/js/main.5d2229d3.js.map",
     "787.071cab62.chunk.js.map": "/portofolio-ghalia/static/js/787.071cab62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d30fc772.css",
-    "static/js/main.da0b0acf.js"
+    "static/js/main.5d2229d3.js"
   ]
 }
