@@ -1,10 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from '../About';
+
 import Nav from '../Nav';
-import Projects from '../Projects';
-import ContactForm from '../Contact';
-import Resume from '../Resume';
+
 function Header() {
     return (
         <header>
@@ -16,20 +13,11 @@ function Header() {
             </h2>
             
         
-           <Router>
+            
            <Nav/>
         
-           <Routes>
           
-           <Route path= "/" element= {<About />}/>
-           <Route path= "/About" element= {<About />}/>
-           <Route path= "/ReachMe" element= {<ContactForm />}/>
-           <Route path= "/Projects" element= {<Projects />}/>
-           <Route path= "/Resume" element= {<Resume />}/>
-
-           </Routes>
-           </Router>
-            
+           
            
         </header>
     )
