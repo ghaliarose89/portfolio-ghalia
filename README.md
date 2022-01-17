@@ -12,7 +12,7 @@ exploring this portfolio allows to navigate the following:
 * Ghalia's contact information.
 
 ## Website
- https://ghaliarose89.github.io/Ghalia-portfolio/
+
 
 
 ### Contribution
