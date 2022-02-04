@@ -17,6 +17,15 @@ const project = [
         github: "https://github.com/ghaliarose89/my-neighbors",
         deployed: "https://myneighbor-app.herokuapp.com/",
     },
+    
+    {
+        id: 3,
+        image: project3,
+        name: "The Missing One",
+        description: "A helpful and unique App, developed to collaborate with families, friends, neighbors, and others to address missing persons and help to find them",
+        github: "https://github.com/cabralwilliams/the-missing-one",
+        deployed: "https://lit-scrubland-68499.herokuapp.com/",
+    },
     {
         id: 2,
         image: project2,
@@ -24,15 +33,8 @@ const project = [
         description: "Pet Search is a Fron-end application that uses four ApI to search for a pet (Cat/Dog) for adoption          ",
         github: "https://github.com/NoahTidwell/Enterprising-Arrangements",
         deployed: "https://ghaliarose89.github.io/pet-search/",
-    },
-    {
-        id: 3,
-        image: project3,
-        name: "Budget Tracker",
-        description: "Budget Tracker is a fast and easy App to track money. Budget Tracker uses MongoDB, Index DB, and service worker for Offline functionality ",
-        github: "https://github.com/ghaliarose89/budget-tracker",
-        deployed: "https://budget-tracker2022.herokuapp.com/",
-    },
+    }
+    ,
     {
         id: 4,
         image:project4,

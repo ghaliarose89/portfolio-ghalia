@@ -1,8 +1,8 @@
-import React  from 'react'
+import React , {useState}  from 'react'
 import { Link } from 'react-router-dom';
 
 function Nav() {
-    
+    const [isActive, setIsActive] = useState(false);
    
     return (
 
@@ -14,8 +14,8 @@ function Nav() {
                            <h3 > About me</h3>
                         </Link>
                     </li>
-                    <li className={"mx-2"}>
-                        <Link to="/Projects" data-testid= 'Project'><h3> Projects</h3> </Link>
+                    <li className= {`mx-2 ${!isActive ? "active" : ""}`} >
+                        <Link to="/Projects" data-testid= 'Project' ><h3> Projects</h3> </Link>
 
 
                     </li>

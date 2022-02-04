@@ -255,6 +255,9 @@ textarea {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
 }
+.active{
+  color:violet
+}
 
 .project-image{
   width: auto;
@@ -266,7 +269,7 @@ textarea {
 }
 .project-desc{
   width: auto;
-  height: 200px;
+  height: 150px;
 }
 
 .img-thumbnail {

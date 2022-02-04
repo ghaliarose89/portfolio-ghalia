@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 function App() {
+  
   return (
     
     <HashRouter>
