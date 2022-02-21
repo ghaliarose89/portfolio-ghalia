@@ -88,7 +88,7 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+.a:hover {
   text-decoration: underline;
   color: #735d78;
 }
@@ -134,9 +134,9 @@ span {
 
 form {
   width: 40%;
-  margin-top:20px ;
+  margin-top:40px ;
   margin:15px;
-  margin-left: 28%;
+  
   border: var(--primary);
 }
 .contact-me{
@@ -193,7 +193,22 @@ textarea {
   margin-right: auto;
 }
 
+.navbar {
+  margin-bottom: 20px;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
   .about-container{
     margin-top: 7%;
   }
@@ -329,3 +344,11 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+

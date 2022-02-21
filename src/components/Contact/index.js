@@ -35,10 +35,12 @@ function ContactForm() {
     return (
         <section className='form-border'>
             <div class="container">
+            <div className="justify-content-center">
+                            <h1 className='text-center'>Contact me</h1></div>
                 <div class="row">
                     <div class="col">
-                        <div className="text-center">
-                            <h1 className='contact-me  '>Contact me</h1>
+                        <div className="justify-content-center">
+                            
                             <form id="contact-form" onSubmit={handleSubmit}>
                                 <div>
                                     <label htmlFor="name"> Name:</label><br />

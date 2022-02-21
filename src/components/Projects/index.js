@@ -31,7 +31,7 @@ const project = [
         image: project2,
         name: "Pet Search",
         description: "Pet Search is a Fron-end application that uses four ApI to search for a pet (Cat/Dog) for adoption          ",
-        github: "https://github.com/NoahTidwell/Enterprising-Arrangements",
+        github: "https://github.com/ghaliarose89/pet-search",
         deployed: "https://ghaliarose89.github.io/pet-search/",
     }
     ,
@@ -69,9 +69,9 @@ function Projects(props) {
         <div >
             <section id="projects" className="container-lg mt-2">
 
-                <div className="row">
+                <div className="row justify-content-center">
 
-                    <h2 className="text-center contact-me form-border  project mb-3">My Projects</h2>
+                    <h2 className="text-center contact-me  justify-content-center  mb-3 contact-me">My Projects</h2>
 
                 </div>
                 <div className="row d-flex justify-content-center mb-5">

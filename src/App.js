@@ -8,27 +8,28 @@ import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 function App() {
-  
+
   return (
-    
+
     <HashRouter>
       <Header />
+      
+      
       <Switch>
-      <div className="container">  
-      <Route exact path="/" component={About} />
-      <Route path= "/About" component= {About }/>
-      <Route path= "/ReachMe" component= {ContactForm }/>
-      <Route path= "/Projects" component= {Projects }/>
-      <Route path= "/Resume" component= {Resume }/>
-      
-      </div>
-     
+        <div className="container">
+          <Route exact path="/" component={About} />
+          <Route path="/About" component={About} />
+          <Route path="/ReachMe" component={ContactForm} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/Resume" component={Resume} />
+
+        </div>
+
       </Switch>
-      
-     
+
       <Footer />
-      </HashRouter>
-   
+    </HashRouter>
+
   );
 }
 

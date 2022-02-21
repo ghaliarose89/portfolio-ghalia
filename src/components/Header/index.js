@@ -6,12 +6,7 @@ function Header() {
     return (
         <header>
         
-            <h2>
-                <a data-testid="link" href="/">
-                <div className="text-center"> Ghalia Sami </div>
-                </a>
-            </h2>
-            
+           
         
             
            <Nav/>

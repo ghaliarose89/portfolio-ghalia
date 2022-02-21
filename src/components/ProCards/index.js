@@ -7,7 +7,7 @@ function ProCards(props) {
 
         <div className=" rounded-2 card-shadow mt-3 m-4 mb-5" style={{ width: '30rem' }}>
         
-            <img alt={props.name} src={props.image} className="rounded card-img-top project-image" />
+           <a href={props.deployed}> <img alt={props.name} src={props.image} className="rounded card-img-top project-image" /></a>
             
             <div className="card-body">
                 <h4 className="card-title text-center project-name">{props.name}</h4>
